@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospedagem de Vídeos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hosp">
+        <h1>Inserindo vídeos hospedados localmente</h1>
+        <p>Este vídeo está hospedado no meu próprio servidor.</p>
+        <video controls loop width="560" height="315" poster="imagens/istockphoto-1398507734-640x640.jpg" class="video">
+        
+            <source src="midia/Meu Video1.mp4" type="video/mp4">
+            <source src="midia/Meu Video1.webm" type="video/webm">
+            <p>Seu navegador não tem compatibilidade com reprodução de vídeo.</p>
+        </video>
+    </div>
+
+    <div class="yt">
+        <h1>Inserindo vídeos do Youtube</h1>
+        <p>Este vídeo está sendo hospedado pelo YouTube.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HgYkeKb18qQ?si=aGjgBLCZxf7MWRs1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+    </div>
+
+</body>
+</html>

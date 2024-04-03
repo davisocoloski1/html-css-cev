@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav {
+    background-color: rgb(136, 119, 119);
+    padding: 3px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.692);
+    /* box-shadow -> deslocamento horizontal, deslocamento vertical, espalhamento e sombra (cor) */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.625);
+    /* border-radius (ordem no sentido horário) -> 
+        border-top-left-radius
+        border-top-right-radius
+        border-bottom-right-radius
+        border-bottom-left-radius
+
+        1 valor   -> valor geral
+        2 valores -> top-left, bottom-right; top-right, bottom-left
+        4 valores -> individual
+    */
+}
+
+article {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+article > aside {
+    background-color: rgb(63, 61, 61);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+
+footer > p {
+    margin: 0;
+}

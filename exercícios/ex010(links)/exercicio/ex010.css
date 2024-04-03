@@ -1,0 +1,40 @@
+body {
+    background-image: linear-gradient(#00ab41, black);
+    height: 100vh
+}
+
+details {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 20px;
+    width: 150px;
+    border-radius: 8px;
+    top: 20%;
+    left: 37.9%;
+}
+
+summary {
+    outline: none;
+    &:focus {
+        border-color: black;
+    }
+}
+
+details:hover {
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+div {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 7px;
+    border-radius: 8px;
+    width: 450px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 20%;
+    text-align: center;
+}
+
+header a {
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+}
+
+main {
+    width: 60%;
+    padding: 0 20px;
+}
+
+footer {
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+@media only screen and (max-width> 620px) {
+    header, main, footer {
+        width: 100%;
+    }
+}

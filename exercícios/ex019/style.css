@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9ff8c7;
+}
+
+p {
+    font: 500 1em 'Work Sans', sans-serif;
+}
+
+h1 {
+    color: #36CF5F;
+}
+
+#principal {
+    color: #95ffc8;
+    text-align: center;
+    background-color: #2d703f;
+}
+
+h2 {
+    color: #248B40;
+}
+
+.basico {
+    color: #248B40;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: #27248b;
+}
+
+.avançado {
+    color: #8b2424;
+}

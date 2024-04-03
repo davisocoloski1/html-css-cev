@@ -1,0 +1,31 @@
+div {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 16px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#italico {
+    font-style: italic;
+}
+
+#marcador {
+    background-color: white;
+}
+
+h1 {
+    font-family: Arial;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(darkblue, black);
+    height: 100vh;
+}

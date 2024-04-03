@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background-color: #101720;
+    color: antiquewhite;
+}
+
+.hosp {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.yt {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+}
