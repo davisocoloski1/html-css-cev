@@ -1,6 +1,5 @@
 #astronauta {
-    max-width: 100%;
-    height: auto;
+    max-width: 1000px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -9,6 +8,7 @@
 
 body {
     background-image: url(imagens/espaco.jpg);
-    max-width: 100%;
-    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
