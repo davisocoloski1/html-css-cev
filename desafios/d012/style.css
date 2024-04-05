@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Passion One';
+    src: url(fontes/Passion_One/PassionOne-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Sriracha';
+    src: url(fontes/Sriracha/Sriracha-Regular.ttf);
+}
+
+header {
+    background-color: black;
+    max-width: 100%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin: -8px -8px 10px -8px;
+}
+
+header > h1 {
+    font: normal 400 6em 'Passion One', sans-serif;
+    margin: 0;
+    margin-bottom: -5px;
+}
+
+header > p {
+    font-family: sans-serif;
+}
+
+header > p > span {
+    font-weight: bolder;
+}
+
+main {
+    margin-top: 100px;
+    font-size: 2em;
+    font-family: 'Sriracha', sans-serif;
+}
+
+main p {
+    line-height: 25px;
+}
+
+section {
+    padding-top: 70px;
+}
+
+.principal {
+    background-image: url(imagens/background001.jpg);
+    width: 100%;
+}
