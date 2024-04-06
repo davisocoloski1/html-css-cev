@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Passion One';
-    src: url(fontes/Passion_One/PassionOne-Regular.ttf) format(truetype);
+    src: url(fontes/Passion_One/PassionOne-Bold.ttf) format(truetype);
 }
 @font-face {
     font-family: 'Sriracha';
@@ -18,33 +18,31 @@ header {
 }
 
 header > h1 {
-    font: normal 400 6em 'Passion One', sans-serif;
+    font: normal bold 10em 'Passion One', sans-serif;
     margin: 0;
     margin-bottom: -5px;
 }
 
 header > p {
-    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header > p > span {
-    font-weight: bolder;
+    font-weight: 700;
 }
 
 main {
-    max-width: 900px;
-    margin: auto;
-    margin-top: 100px;
-    border-image: linear-gradient(to top, black, white) 50;
-    border-width: 1px;
-    border-style: solid;
+    margin-top: 10px;
     padding: 20px;
     font-size: 2em;
     font-family: 'Sriracha', sans-serif;
 }
 
 main p {
-    line-height: 25px;
+    font-size: 70px;
+    line-height: 70px;
 }
 
 section {
@@ -56,21 +54,23 @@ section {
     background-image: url(imagens/background001.jpg);
     background-position: right center;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     width: 100%;
+    padding: 100px 40px;
 }
 
 .fundo2 {
     background-image: url(imagens/background002.jpg);
     background-position: right center;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     width: 100%;
+    padding: 70px 40px;
 }
 
 div {
-    background-color: rgba(0, 0, 0, 0.178);
-    padding: 20px;
-    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.425);
+    max-width: 850px;
+    padding: 10px;
     color: white;
 }
